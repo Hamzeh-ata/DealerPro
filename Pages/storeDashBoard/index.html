@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="icon" href="./imgs/botLogo.png" type="image/x-icon" sizes="200x200" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div id="notify" class="top center">
+        <div id="toast-SSQxZFzM" class="toast shadow bg-dangerAlert border-dangerAlert fade hide" data-delay="6000" data-autohide="true">
+            <div>
+
+                <span id="alert" class="d-block font-weight-bold mb-1 text-white text-center">
+
+                </span>
+
+
+            </div>
+        </div>
+    </div>
+    <section class="mainSection d-lg-flex d-md-block d-sm-block">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid navContainer h-100">
+                <div class="logo">
+                    <h1>Dealer Pro</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mt-3 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item logoutItem">
+                            <a class="nav-link asideItem inactiveComponent" id="logOut">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="backgroundWrap" class="backgroundWrap"></div>
+        <div class="productSpecificationsDialog">
+            <div class="container  h-100">
+                <div class="row justify-content-center h-100 d-flex  justify-content-center">
+                    <div class="col-lg-11 col-md-12 col-sm-12 d-flex align-self-center justify-content-center">
+                        <div class="productSpecifications">
+                            <div class="row w-100 ms-0 me-0">
+                                <div class="col-lg-5 justify-content-center d-flex col-md-5 col-sm-12">
+                                    <div class="addProudctImg align-self-center " id="addProductImg">
+                                        <div class="d-flex justify-content-center"><a>+</a></div>
+                                        <h1>Add image</h1>
+                                    </div>
+                                    <input type="file" id="imageInput" style="display: none;">
+                                </div>
+                                <div class="col-lg-7 p-0 col-md-7 col-sm-12 ">
+                                    <div class="specifications d-flex justify-content-start h-100">
+                                        <div class="align-self-center w-100">
+                                            <div class="productName specification">
+                                                <input placeholder="Product name" id="productName" class="productInput productInfo w-100" autocomplete="off">
+                                            </div>
+                                            <div class="productCategory specification">
+                                                <select id="productCategory" class="productInfo">
+                                                    <option value="category">Category</option>
+                                                    <option value="Laptops">Laptops</option>
+                                                    <option value="Computers">Computers</option>
+                                                    <option value="CPU">CPU</option>
+                                                    <option value="Chairs">Chairs</option>
+                                                    <option value="GPU">GPU</option>
+                                                    <option value="HDD">HDD</option>
+                                                    <option value="Headset">Headset</option>
+                                                    <option value="Keyboards">Keyboards</option>
+                                                    <option value="Monitors">Monitors</option>
+                                                    <option value="Mouses">Mouses</option>
+                                                    <option value="RAM">RAM</option>
+                                                    <option value="SSD">SSD</option>
+                                                    <option value="motherBoards">Motherboards</option>
+                                                    <option value="powerSupplies">Power Supplies</option>
+                                                    <option value="Mobiles">Mobiles</option>
+                                                    <option value="Dishwashers">Dishwashers</option>
+                                                    <option value="TVs">TV's</option>
+                                                    <option value="Refrigerators">Refrigerators</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="productBrand specification ">
+                                                <input placeholder="Product brand" id="productBrand" class="productInput productInfo " autocomplete="off">
+                                            </div>
+                                            <div class="productOrgPrice d-flex specification">
+                                                <input type="number" placeholder="Product original Price" id="productPriceOriginal" class="productInput  productInfo" autocomplete="off">
+                                            </div>
+                                            <div class="productDiscPrice d-flex specification">
+                                                <input type="number" placeholder="Product discount Price" id="productPriceDiscount" class="productInputDiscount productInfo" autocomplete="off">
+                                            </div>
+                                            <div class="productContactInfo d-flex specification">
+                                                <input placeholder="Product URL/Phone number" id="productContact" class="productInput productInfo" autocomplete="off">
+                                            </div>
+
+                                            <div class="productDescriptionInfo d-flex specification w-100">
+                                                <textarea placeholder="Product description" id="productDescription" class="productInput productInfo" autocomplete="off"></textarea>
+                                            </div>
+
+                                            <div class="Warnings">
+                                                <span id="fillFields">Please fill all the fields</span>
+                                            </div>
+
+
+                                            <div class="productButtons d-flex ">
+                                                <a class="productButton" id="editButton" data-id="" data-link="">Edit</a>
+                                                <a class="productButton" id="saveChanges" data-id="" data-link="">Save changes</a>
+                                                <a class="productButton" id="saveButton" data-id="" data-link="">Save</a>
+                                                <a class="productButton" id="exitDialog" data-id="">Exit</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row mt-3 ">
+
+                <div class="col-lg-4 col-md-6 col-lg-12">
+                    <div class="addedProductsNumber">
+                        <h2>Added products : <span id="addedProducts"></span></h2>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="productsContainer w-100">
+                        <div class="row " id="componentsRow">
+                            <div class="col-lg-3 col-md-4 col-sm-12 m-3">
+                                <div class="addNewProduct w-100  h-100" id="newProduct">
+                                    <h2>Add new product</h2>
+                                    <div class="d-flex justify-content-center" id="addNewProductButton"><a>+</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./dashboard.js"></script>
+</html>

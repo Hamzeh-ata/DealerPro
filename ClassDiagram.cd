@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DealerPro.fireBase.FireBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>fireBase\FireBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealerPro.fireBase.FireBaseFunctions">
+    <Position X="0.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AICCAAAABAAAAAAAABAAAQAAAAAAAAAAAAAiBAAAAEA=</HashCode>
+      <FileName>fireBase\FireBaseFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealerPro.crawlersServices.cityCenter.CityCenterDataCrawler">
+    <Position X="4.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQBAAAAAAAAAA=</HashCode>
+      <FileName>crawlersServices\cityCenter\CityCenterDataCrawler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DealerPro.crawlersServices.cityCenter.CityCenter_StockFilter">
+    <Position X="9.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>crawlersServices\cityCenter\CityCenter-StockFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.fireBaseServices" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAABAABAAAAAMIAAAACAAEAAAAAAAAiRAAAAAA=</HashCode>
+      <FileName>fireBase\fireBaseServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.carrefour.carrefourDishWashers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEAAAAAAAEAAAAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>carrefour\carrefourDishWashers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.carrefour.carrefourMobiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAEAAAAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>carrefour\carrefourMobiles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.carrefour.carrefourTv_s" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAQAAQAEAAAAAA=</HashCode>
+      <FileName>carrefour\carrefourTv's.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterChairs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABAAAAQAAAAEAAA=</HashCode>
+      <FileName>CityCenter\cityCenterChairs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterCpu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABIQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterCpu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterGraphicCard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAgAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterGraphicCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterHDD" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAQAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterHDD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterKeyBoards" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAgAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterKeyBoards.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterLaptopsHub" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAAAAEAAAACAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterLaptopsHub.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterMonitors" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAACAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterMonitors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterMotherBoards" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAYABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterMotherBoards.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterMouses" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAABAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterMouses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterPCs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABAQAAQAgAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterPCs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterPSU" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAEAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterPSU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterRams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAACAAAEAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterRams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Hubs.cityCenterSSD" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAQAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>CityCenter\cityCenterSSD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Controllers.HomeController" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.Controllers.ProductsController" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAABIAAIAAAAQAAAAgAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProductsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.fireBase.fireBaseConfigController" Collapsed="true">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>fireBase\fireBaseConfigController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.GTS.GTSComputers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSComputers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSCpu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABIQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSCpu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSGpu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABAQAAQAAAAIAAA=</HashCode>
+      <FileName>GTS\GTSGpu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSHDD" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAEAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSHDD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSHeadset" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABAQAAQAAQAAAAA=</HashCode>
+      <FileName>GTS\GTSHeadset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSKeyboards" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAIAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSKeyboards.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSLaptops" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAMAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSLaptops.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSMonitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAACAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSMonitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSMouse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIQBAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSMouse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSPsu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAMAAAAAAAAAIABAQAAQAAAAAAgA=</HashCode>
+      <FileName>GTS\GTSPsu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSRams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAEAAAAAAAAAIABAQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSRams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.GTS.GTSSSD" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIABEQAAQAAAAAAAA=</HashCode>
+      <FileName>GTS\GTSSSD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.HMG.HMGDishwashers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAACAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>HMG\HMGDishwashers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.HMG.HMGPhones" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAAAAQAIAAAAAA=</HashCode>
+      <FileName>HMG\HMGPhones.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.HMG.HMGRefrigerators" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAQAAAAQAAAAAAAA=</HashCode>
+      <FileName>HMG\HMGRefrigerators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.HMG.HMGTvs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAQAAQAEAAAAAA=</HashCode>
+      <FileName>HMG\HMGTvs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.HMG.HMGWashingMachines" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEAAAAAAAEAAAAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>HMG\HMGWashingMachines.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.Models.Components" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAQAAAAAAIAAAAAQAAAAAABARAAACAAABCQA=</HashCode>
+      <FileName>Models\Components.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.Models.firebaseOptions" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAgBAgAAAgAAAFAAAAAgAAQAAIgAAAAA=</HashCode>
+      <FileName>Models\firebaseOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test.OS.OSChairs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAAAAAAAAAEAAE=</HashCode>
+      <FileName>OS\OSChairs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSComputers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSComputers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSCPUS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAQAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSCPUS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSGpu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIACAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSGpu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSHdd" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAEAAAAAAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSHdd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSHeadset" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAQAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSHeadset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSKeyboards" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAACQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSKeyboards.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSLaptops" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAMAAAAAAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSLaptops.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.125" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSMB" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgEAAAAAAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSMB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="test.OS.OSMonitors" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAQAAAAAEAAAAAAAAAIAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSMonitors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSMouse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIQAAQAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSMouse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSPsu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>OS\OSPsu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSRams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>OS\OSRams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.OS.OSSdd" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAAAAEQAAAAAAAAAAA=</HashCode>
+      <FileName>OS\OSSdd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.smartBuy.smartBuyDishWashers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>smartBuy\smartBuyDishWashers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.smartBuy.smartBuyRefrigerators" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAAAQAQAAAAAAAAAAA=</HashCode>
+      <FileName>smartBuy\smartBuyRefrigerators.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.smartBuy.smartBuyTv_s" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>smartBuy\smartBuyTv's.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.smartBuy.smartBuyWashingMachines" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>smartBuy\smartBuyWashingMachines.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="test.smartBuyMobiles.smartBuyMobiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>smartBuy\smartBuyMobiles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="test.Interfaces.IcarrefourDishWashers" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcarrefourDishWashers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcarrefourMobiles" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcarrefourMobiles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcarrefourTv_s" Collapsed="true">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Interfaces\IcarrefourTv's.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IChairs" Collapsed="true">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Interfaces\IChairs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterCpu" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterCpu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterGraphicCard" Collapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterGraphicCard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterHDD" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterHDD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterKeyBoards" Collapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterKeyBoards.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterMonitors" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterMonitors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterMotherBoards" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterMotherBoards.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterMouses" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterMouses.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterPCs" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterPCs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterPSU" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterPSU.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterRams" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterRams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IcityCenterSSD" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IcityCenterSSD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSComputers" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSComputers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSCpu" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSCpu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSGpu" Collapsed="true">
+    <Position X="2.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Interfaces\IGTSGpu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSHDD" Collapsed="true">
+    <Position X="4" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSHDD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSHeadset" Collapsed="true">
+    <Position X="5.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSHeadset.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSKeyboards" Collapsed="true">
+    <Position X="7.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSKeyboards.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSLaptops" Collapsed="true">
+    <Position X="9.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSLaptops.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSMonitor" Collapsed="true">
+    <Position X="11" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSMouse" Collapsed="true">
+    <Position X="12.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSMouse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSProductcs" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IGTSProductcs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSPsu" Collapsed="true">
+    <Position X="2.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Interfaces\IGTSPsu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSRams" Collapsed="true">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSRams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IGTSSSD" Collapsed="true">
+    <Position X="5.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IGTSSSD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IHMGDishwashers" Collapsed="true">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHMGDishwashers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IHMGPhones" Collapsed="true">
+    <Position X="9.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Interfaces\IHMGPhones.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IHMGRefrigerators" Collapsed="true">
+    <Position X="11" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHMGRefrigerators.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IHMGTvs" Collapsed="true">
+    <Position X="12.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Interfaces\IHMGTvs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IHMGWashingMachines" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHMGWashingMachines.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.ILaptopNamesHub" Collapsed="true">
+    <Position X="2.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILaptopNamesHub.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IleadersMobiles" Collapsed="true">
+    <Position X="4" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IleadersMobiles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSComputers" Collapsed="true">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSComputers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSCpus" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSCpus.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSGpu" Collapsed="true">
+    <Position X="9.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSGpu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSHdd" Collapsed="true">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSHdd.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSHeadset" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSHeadset.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSKeyboards" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSKeyboards.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSLaptops" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSLaptops.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.iOSMB" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\iOSMB.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSMonitors" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSMonitors.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSMouse" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSMouse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSPsu" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Interfaces\IOSPsu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSRams" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSRams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IOSSdd" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOSSdd.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IsmartBuyDishWashers" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IsmartBuyDishWashers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IsmartBuyMobiles" Collapsed="true">
+    <Position X="2.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IsmartBuyMobiles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IsmartBuyRefrigerators" Collapsed="true">
+    <Position X="4" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IsmartBuyRefrigerators.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IsmartBuyTv_s" Collapsed="true">
+    <Position X="5.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Interfaces\IsmartBuyTv's.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="test.Interfaces.IsmartBuyWashingMachines" Collapsed="true">
+    <Position X="7.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IsmartBuyWashingMachines.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

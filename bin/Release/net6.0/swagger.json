@@ -1,0 +1,835 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "DealerPro",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/addCustomProducts/addProduct": {
+      "post": {
+        "tags": [
+          "addCustomProducts"
+        ],
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "parameters": [
+          {
+            "in": "formData",
+            "name": "UID",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "StoreName",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Img",
+            "type": "file"
+          },
+          {
+            "in": "formData",
+            "name": "Category",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Image",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Price",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "OldPrice",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Brand",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "description",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "formData",
+            "name": "ProductUrl",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Date",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Time",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/addCustomProducts/updateProduct/{category}/{productId}": {
+      "put": {
+        "tags": [
+          "addCustomProducts"
+        ],
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "productId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "StoreName",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Img",
+            "type": "file"
+          },
+          {
+            "in": "formData",
+            "name": "Image",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Price",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "OldPrice",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Brand",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "ProductUrl",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "description",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "formData",
+            "name": "Date",
+            "type": "string"
+          },
+          {
+            "in": "formData",
+            "name": "Time",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/addCustomProducts/deleteProduct/{category}/{productId}": {
+      "delete": {
+        "tags": [
+          "addCustomProducts"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "productId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Auth/signin": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/signInData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/userid": {
+      "post": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/TokenData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/create": {
+      "post": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/storeData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/changeName": {
+      "put": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UID",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "existStoreName",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "newStoreName",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/deleteStore": {
+      "delete": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "UID",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "storeName",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/getStoreName": {
+      "get": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Token",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashBoardData/CheckForStoreDuplicate": {
+      "post": {
+        "tags": [
+          "DashBoardData"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/dashBoardProducts/{storeName}": {
+      "get": {
+        "tags": [
+          "dashBoardProducts"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "storeName",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/dashBoardProducts/{category}/{id}": {
+      "get": {
+        "tags": [
+          "dashBoardProducts"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/fireBaseConfig": {
+      "get": {
+        "tags": [
+          "fireBaseConfig"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": { }
+          },
+          "400": {
+            "description": "Bad Request",
+            "schema": {
+              "$ref": "#/definitions/ProblemDetails"
+            }
+          }
+        }
+      }
+    },
+    "/api/GetProductByCategory/{category}": {
+      "get": {
+        "tags": [
+          "GetProductByCategory"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Guide/{category}/{brand}/{price}": {
+      "get": {
+        "tags": [
+          "Guide"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "brand",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "price",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Home/home": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/HomeSearch/{category}/{name}": {
+      "get": {
+        "tags": [
+          "HomeSearch"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/HomeSearch/{name}": {
+      "get": {
+        "tags": [
+          "HomeSearch"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ProductDetails/{category}/{id}": {
+      "get": {
+        "tags": [
+          "ProductDetails"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Components"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/RegisterUser": {
+      "post": {
+        "tags": [
+          "RegisterUser"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/RegistrationData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/RegisterUser/register": {
+      "post": {
+        "tags": [
+          "RegisterUser"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/GoogleRegistrationData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Components": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "oldPrice": {
+          "type": "string"
+        },
+        "productId": {
+          "type": "string"
+        },
+        "storeName": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "productUrl": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "description": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "GoogleRegistrationData": {
+      "type": "object",
+      "properties": {
+        "googleIdToken": {
+          "type": "string"
+        }
+      }
+    },
+    "ProblemDetails": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "detail": {
+          "type": "string"
+        },
+        "instance": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": { }
+    },
+    "RegistrationData": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "TokenData": {
+      "type": "object",
+      "properties": {
+        "token": {
+          "type": "string"
+        }
+      }
+    },
+    "signInData": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "storeData": {
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string"
+        },
+        "storeName": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

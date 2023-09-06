@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" ;=; charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="./Index.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="./imgs/botLogo.png" type="image/x-icon" sizes="200x200" />
+    <title>Dealer Guide</title>
+</head>
+<body id="body">
+    <div id="notify" class="top center">
+        <div id="toast-SSQxZFzM" class="toast shadow bg-dangerAlert border-dangerAlert fade hide" data-delay="6000" data-autohide="true">
+            <div>
+                <span id="alert" class="d-block font-weight-bold mb-1 text-white text-center">
+                </span>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navBar">
+        <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto  float-lg-end float-sm-start  float-md-start mb-2 mb-lg-0 ">
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start">
+                        <a class="nav-link active" aria-current="page" href="https://localhost:7277/home/">Home</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start">
+                        <a class="nav-link" href="https://localhost:7277/login/">Sign in</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start ">
+                        <a href="https://localhost:7277/signUp/" class="cmn-btn" style="padding: 1px 18px;">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="mainSection">
+        <div class="progressBar ">
+            <div class="progress-bar-fill" id="fillBar"></div>
+        </div>
+        <div class="container-fluid d-flex h-100 ">
+
+            <div class="row align-self-center justify-content-center h-100 w-100" id="getStartedRow">
+                <div class="col-lg-12 col-sm-12 col-md-12 align-self-center d-flex justify-content-center">
+                    <div class="wrap">
+                        <div class="mainText text-center">
+                            <h1>Discover the Perfect Product with Our Expert Guidance</h1>
+                        </div>
+                        <div class="mainButton w-100 d-flex justify-content-center mt-4">
+                            <button id="getStarted" class="getStarted">Get Started</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row align-self-center justify-content-center h-100 w-100 " id="categoryRow">
+                <div class="row align-self-center justify-content-center  w-100">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-flex ">
+                            <div class="mainText w-100 align-self-center">
+                                <h1>Unlock Your Perfect <span>Match</span></h1>
+                                <p>Find Your Ideal Product with Our Comprehensive Guide</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="mainText">
+                                <h1 style="margin-right:80px;">Select <span>Category</span></h1>
+                            </div>
+                            <div class="categoriesList mt-2">
+                                <div class="categoryCard" id="gamingLaptop" value="Laptops">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="categoryName">
+                                                <h1 class="">Gaming Laptops</h1>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="categoryImg">
+                                                <img src="imgs/gamingLaptops.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categoryCard" id="everyDayLaptops" value="EveryDayUseLaptops">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="categoryName">
+                                                <h1 class="">Every Day Laptops</h1>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="categoryImg">
+                                                <img src="imgs/everyDayLaptop.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="mainButton w-100 d-flex justify-content-end mt-4">
+                                <button style="margin-right: 72px;" id="selectCategory" class="nextButton">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row align-self-center justify-content-center h-100 w-100 " id="brandRow">
+                <div class="row align-self-center justify-content-center  w-100">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 d-flex ">
+                            <div class="mainText d-grid w-100 align-self-center" style="place-content:center; align-content:center;">
+                                <div>
+                                    <h1>Discover Your Perfect <span>Fit</span></h1>
+                                </div>
+                                <div class="d-flex justify-content-center" >
+                                    <p class="text-center" style="width:400px; align-self:center;">
+                                        Our Powerful Algorithm
+                                        Finds Your Ideal Product
+                                        from our Vast Database with Lightning Speed
+                                    </p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="mainText">
+                                <h1 style="margin-right:80px;">Select <span>Brand</span></h1>
+                            </div>
+                            <div class="brandList mt-2">
+                                <div class="optionCard" id="acer" value="acer">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/AcerLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="asus" value="asus">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/AsusLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="lenovo" value="lenovo">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/LenovoLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="huawei" value="huawei">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/HuaweiLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="msi" value="msi">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/MSILogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="hp" value="hp">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/HPLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="optionCard" id="dell" value="dell">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="brandImg">
+                                                <img src="imgs/DellLogo.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainButton w-100 d-flex justify-content-end mt-4">
+                                <button style="margin-right: 72px;" id="selectBrand" class="nextButton">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+    
+            <div class="row align-self-center justify-content-center h-100 w-100" id="priceRow">
+                <div class="row align-self-center justify-content-center  w-100">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mainText">
+                                <h1>Enter the highest price you can pay</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-7 col-sm-12 align-self-center d-flex justify-contect-center mt-4">
+                        <div class="priceContainer">
+                            <div class="highestPrice" id="price">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="priceInput">
+                                            <input placeholder="Price" type="number" id="priceInput" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row w-100 align-self-center justify-content-center mt-4">
+                        <div class="col-lg-3 col-md-7 col-sm-12">
+                            <div class="mainButton w-100 d-flex justify-content-end mt-4">
+                                <button id="finshButton" class="finshButton">Finsh</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="backgroundWrap" class="backgroundWrap"></div>
+            <div class="productSpecificationsDialog">
+                <div class="container h-100">
+                    <div class="row justify-content-center h-100 d-flex  justify-content-center">
+                        <div class="col-lg-11 col-md-12 col-sm-12 d-flex align-self-center justify-content-center">
+                            <div class="productSpecifications">
+                                <div class="row w-100 ms-0 me-0">
+                                    <div class="col-lg-5 justify-content-center d-flex col-md-5 col-sm-12">
+                                        <div class="proudctImg align-self-center ">
+                                            <img id="dialogImg" src="./imgs/noImage.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 p-0 col-md-7 col-sm-12 ">
+                                        <div class="specifications d-flex justify-content-start h-100">
+                                            <div class="align-self-center w-100">
+                                                <div class="productName specification">
+                                                    <h2 id="dialogName"></h2>
+                                                </div>
+                                                <div class="productBrand specification">
+                                                    <h2 id="dialogBrand"></h2>
+                                                </div>
+                                                <div class="productStoreName specification ">
+                                                    <h2 id="dialogStoreName"></h2>
+                                                </div>
+                                                <div class="productPrice d-flex specification">
+                                                    <h2 id="dialogPrice"> </h2>
+                                                </div>
+                                                <div class="productTimeDateUpdate d-flex specification">
+                                                    <h2 id="dialogDateTime">Last update: </h2>
+
+                                                </div>
+                                                <div class="description d-grid">
+                                                    <div class="d-flex">
+                                                        <h2>Description</h2> <a id="dropdown-btn">
+                                                            <?xml version="1.0" ?>
+                                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white" width="30px"><g><path d="M0 0h24v24H0z" fill="none" /><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z" /></g></svg>
+                                                        </a>
+                                                    </div>
+                                                    <div class="descriptionDropDownContentDialog" id="dropdown-content">
+                                                        <ul id="dialogDescreptionUl">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="productButtons d-flex ">
+                                                    <a class="productButton" id="productLink" data-id="" data-link="">Product link</a>
+                                                    <a class="productButton" id="exitDialog" data-id="">Exit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row  justify-content-center align-items-stretch w-100 " id="componentRow" productsRow=productsRow>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+</body>
+<script src="./Guide.js"></script>
+</html>

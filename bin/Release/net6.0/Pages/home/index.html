@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" ; charset="utf-8">
+    <link href="./Home.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Home</title>
+    <link rel="icon" href="./imgs/botLogo.png" type="image/x-icon" sizes="200x200" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  float-lg-end float-md-start float-sm-start">
+        <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 float-start">
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start">
+                        <a class="nav-link" href="/dealerGuide/">Dealer guide</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start">
+                        <a class="nav-link" href="/login/">Sign in</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-lg-center justify-content-md-start justify-content-sm-start ">
+                        <a href="/signUp/" class="cmn-btn" style="padding: 1px 18px;">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="sectionOne">
+        <div class="container-fluid d-flex justify-content-center h-100">
+            <div class="row align-self-center justify-content-center h-100">
+                <div class="row align-self-center justify-content-center">
+                    <div class="mainText d-flex justify-content-center mt-2">
+                        <div class="col-12">
+                            <div><h1> SEARCH BY PRODUCT NAME</h1></div>
+                        </div>
+                    </div>
+                    <div class="searchBar d-flex justify-content-center mt-2 d-flex justify-content-center row ">
+                        <div class="col-lg-1 col-md-6 col-sm-12 me-lg-0 m-lg-1 p-lg-0 mb-sm-1 mb-md-1  me-md-0 m-md-1 p-md-0">
+                            <div class="w-100">
+                                <select id="productCategory" class="categorySelect">
+                                    <option value="category">Category</option>
+                                    <option value="Laptops">Gaming Laptops</option>
+                                    <option value="EveryDayUseLaptops">Every day Laptops</option>
+                                    <option value="Computers">Computers</option>
+                                    <option value="CPU">CPU</option>
+                                    <option value="Chairs">Chairs</option>
+                                    <option value="GPU">GPU</option>
+                                    <option value="HDD">HDD</option>
+                                    <option value="Headset">Headset</option>
+                                    <option value="Keyboards">Keyboards</option>
+                                    <option value="Monitors">Monitors</option>
+                                    <option value="Mouses">Mouses</option>
+                                    <option value="RAM">RAM</option>
+                                    <option value="SSD">SSD</option>
+                                    <option value="motherBoards">Motherboards</option>
+                                    <option value="powerSupplies">Power Supplies</option>
+                                    <option value="Mobiles">Mobiles</option>
+                                    <option value="Dishwashers">Dishwashers</option>
+                                    <option value="Tv's">TV's</option>
+                                    <option value="Refrigerators">Refrigerators</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center searchBarCol  ms-lg-0 ps-lg-0 m-lg-1 p-md-0 ">
+                            <div class="w-100">
+                                <input id="searchForProducts" placeholder="ex : Lenovo, Samsung" class="ms-0" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categoriesElements d-flex justify-content-center mt-2">
+                        <div class="col-lg-8 col-md-12 col-sm-12 ">
+                            <div class="categories row d-flex justify-content-center  ">
+                                <div class="col-lg-3 col-md-3 col-sm-7 p-2">
+                                    <div class="categorieCard justify-content-center d-grid " id="gamingCategories">
+                                        <img alt="gamingProducts" src="./imgs/gamingProducts.png" width="45">
+                                        <h2>Gaming products</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-7 p-2">
+                                    <div class="categorieCard justify-content-center d-grid " id="mobilesAndTablets">
+                                        <img alt="mobilesAndTablets" src="./imgs/mobilesAndTablets.png" width="45">
+                                        <h2>Mobiles & Tablets</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-7 p-2">
+                                    <div class="categorieCard justify-content-center d-grid " id="homeElectricCategories">
+                                        <img alt="homeElectricProducts" src="./imgs/homeElectricProducts.png" width="45">
+                                        <h2>Home electric products</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+</body>
+<script src="home.js"></script>
+</html>
